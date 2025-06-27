@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Meu Portfólio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre Mim</a></li>
+        <li><a href="projeto.html">Projetos</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content" aria-label="Formulário de contato">
+      <h2>Fale Comigo</h2>
+      <form action="https://formsubmit.co/ds4673409@gmail.com" method="POST">
+  <!-- Proteções e configurações -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="Novo contato do portfólio!">
+  <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+  <!-- Campos do formulário -->
+  <div class="form-group">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+  </div>
+  <div class="form-group">
+    <textarea name="mensagem" rows="5" placeholder="Sua mensagem..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+</form>
+
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Diego Souza. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
